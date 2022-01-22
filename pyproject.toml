@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "VES_metadata_survey_tools"
+version = "0.1.0"
+description = "tools for analyzing results of VES metadata survey"
+# BSD-3-Clause for OpenEXR
+license = "BSD-3-Clause"
+authors = ["Joseph Goldstone <jgoldstone@arri.com>"]
+maintainers = ["Joseph Goldstone <jgoldstone@arri.com>"]
+readme = "README.md"
+keywords = [
+    "numpy"  
+]
+
+[tool.poetry.dependencies]
+python = "^3.10.0"
+# for (at least) Imath's python libraries
+numpy = "^1.21"
+pandas = "^1.3.4"
+requests = "^2.26.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+
+[tool.poetry.urls]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
